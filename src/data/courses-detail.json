@@ -1,0 +1,55 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Stellar Beginnings: Introduction to Astronomy",
+      "slug": "stellar-beginnings-introduction-to-astronomy",
+      "description": "Discover how the universe began, the basic principles of astronomy, and our place among the stars.",
+      "price": 49.99,
+      "instructor": "Dr. Arjun Mehta",
+      "isFeatured": true,
+      "image": "/courses/stellar-beginnings.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Solar System Unlocked: Planets, Moons & More",
+      "slug": "solar-system-unlocked-planets-moons-more",
+      "description": "Explore the wonders of our solar system, from the rocky inner planets to icy outer giants and their mysterious moons.",
+      "price": 59.99,
+      "instructor": "Prof. Rhea Kapoor",
+      "isFeatured": true,
+      "image": "/courses/solar-system-unlocked.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Navigating the Night Sky: Stargazing & Constellations",
+      "slug": "navigating-night-sky-stargazing-constellations",
+      "description": "Learn how to identify stars, planets, and constellations and get started with backyard stargazing.",
+      "price": 39.99,
+      "instructor": "Aditi Sharma",
+      "isFeatured": true,
+      "image": "/courses/night-sky.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Cosmic Mysteries: Black Holes, Dark Matter & Beyond",
+      "slug": "cosmic-mysteries-black-holes-dark-matter",
+      "description": "Dive into the most fascinating phenomena in the cosmos — black holes, dark matter, and the unknown forces shaping our universe.",
+      "price": 69.99,
+      "instructor": "Dr. Neil Banerjee",
+      "isFeatured": true,
+      "image": "/courses/cosmic-mysteries.jpg"
+    },
+    {
+      "id": 5,
+      "title": "AstroTech 101: Telescopes, Tools & Observing Techniques",
+      "slug": "astrotech-101-telescopes-tools-observing",
+      "description": "Master the tools of an amateur astronomer — how to choose, set up, and use telescopes and apps for celestial observations.",
+      "price": 54.99,
+      "instructor": "Ananya Patel",
+      "isFeatured": true,
+      "image": "/courses/astrotech.jpg"
+    }
+  ]
+}
+ 
