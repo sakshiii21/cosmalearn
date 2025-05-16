@@ -8,7 +8,7 @@
       "price": 49.99,
       "instructor": "Dr. Arjun Mehta",
       "isFeatured": true,
-      "image": "/courses/stellar-beginnings.jpg"
+      "image": "https://i.pinimg.com/736x/c7/a8/4b/c7a84bad224fa9f4f4bde1f7e5509743.jpg"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "price": 59.99,
       "instructor": "Prof. Rhea Kapoor",
       "isFeatured": true,
-      "image": "/courses/solar-system-unlocked.jpg"
+      "image": "https://i.pinimg.com/736x/14/21/6b/14216bd97e8ccdeddc92318b6ab0b464.jpg"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "price": 39.99,
       "instructor": "Aditi Sharma",
       "isFeatured": true,
-      "image": "/courses/night-sky.jpg"
+      "image": "https://i.pinimg.com/736x/08/b9/5a/08b95ae718d5d78743d37de150770e72.jpg"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "price": 69.99,
       "instructor": "Dr. Neil Banerjee",
       "isFeatured": true,
-      "image": "/courses/cosmic-mysteries.jpg"
+      "image": "https://i.pinimg.com/736x/60/3f/c5/603fc5bf2147d49e0db39e99cdc55b13.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "price": 54.99,
       "instructor": "Ananya Patel",
       "isFeatured": true,
-      "image": "/courses/astrotech.jpg"
+      "image": "https://i.pinimg.com/736x/6a/75/e5/6a75e5f07dac1008a79ef8b94b5ad78a.jpg"
     }
   ]
 }
