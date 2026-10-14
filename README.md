@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CosmaLearn
 
-## Getting Started
+CosmaLearn is a Next.js astronomy academy website with course, instructor, webinar, and course-detail pages. The current repository contains a frontend and local course data; it does not include a backend or user progress-tracking service.
 
-First, run the development server:
+**Live site:** [cosmalearn.vercel.app](https://cosmalearn.vercel.app/)
+
+**Source:** [github.com/sakshiii21/cosmalearn](https://github.com/sakshiii21/cosmalearn)
+
+## Stack
+
+Next.js · React · TypeScript · CSS
+
+## Run locally
+
+Requires Node.js and npm.
 
 ```bash
+git clone https://github.com/sakshiii21/cosmalearn.git
+cd cosmalearn
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` — start the Next.js development server.
+- `npm run build` — create a production build.
+- `npm start` — serve the production build.
+- `npm run lint` — run the configured lint command.
 
-## Learn More
+## Project layout
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app/` — home, courses, and contact pages.
+- `src/components/` — page sections and reusable interface components.
+- `src/data/courses-detail.json` — course content used by the frontend.
+- `public/` — static assets.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+There are no environment variables required by the current codebase.
